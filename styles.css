@@ -1,0 +1,29 @@
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    min-height: 500px;
+}
+
+.grid_element {
+    min-width: 90px;
+    min-height: 90px;
+    background-color: aqua;
+    text-align: center;
+    border: 1px solid;
+
+}
+
+#game_ui {
+    display: none;
+}
+
+#pregame_ui {
+    padding: 2%;
+}
+
+body {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+
+}

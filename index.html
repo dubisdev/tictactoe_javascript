@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>TICTACTOE :)</title>
+</head>
+
+<body>
+    <h1>TICTACTOE GAME</h1>
+
+    <div id="pregame_ui">
+        <h4>Seleccione el nivel del juego</h4>
+        <input id="levelSelector" type="range" min=0 max=2 step=1 />
+        <br />
+        <br />
+        <button id="start_game_button">Start Game 🚀</button>
+    </div>
+
+    <div id="game_ui">
+
+        <div class="grid" id="tablero">
+            <div class="grid_element" id="box0"></div>
+            <div class="grid_element" id="box1"></div>
+            <div class="grid_element" id="box2"></div>
+            <div class="grid_element" id="box3"></div>
+            <div class="grid_element" id="box4"></div>
+            <div class="grid_element" id="box5"></div>
+            <div class="grid_element" id="box6"></div>
+            <div class="grid_element" id="box7"></div>
+            <div class="grid_element" id="box8"></div>
+        </div>
+
+        <button id="new_game">New Game 🪁</button>
+        <button id="menu">Menu ⚙</button>
+
+    </div>
+</body>
+
+<script type="module" src="./tresenraya_pi.js"> </script>
+
+</html>
